@@ -1,0 +1,43 @@
+.modal-content{
+    width: 235px;
+    height: 215px;
+    position: absolute;
+    z-index: 101;
+    top: 56px;
+    right: 320px;
+    background-color: white;
+    box-shadow: #c9c8c8 0px 0px 10px;
+}
+
+.modal-content:before{
+    box-sizing: content-box;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -16px;;
+    right:28px;
+    padding:0;
+    border-bottom:9px solid #FFFFFF;
+    border-top:9px solid transparent;
+    border-left:9px solid transparent;
+    border-right:9px solid transparent;
+    display: block;
+    content:'';
+    z-index: 12;
+}
+.modal-content:after{
+    box-sizing: content-box;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -18px;;
+    right:28px;
+    padding:0;
+    border-bottom:9px solid #ebe9e9;
+    border-top:9px solid transparent;
+    border-left:9px solid transparent;
+    border-right:9px solid transparent;
+    display: block;
+    content:'';
+    z-index:10;
+}
